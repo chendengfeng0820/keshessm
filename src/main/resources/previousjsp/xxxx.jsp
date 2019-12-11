@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: cdf
   Date: 19-12-11
-  Time: 下午6:27
+  Time: 下午7:31
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,9 +11,11 @@
     <title>Title</title>
 </head>
 <body>
-
-<a href="first.jsp" >学生登陆</a>
-<a href="teacherdenglu.jsp" >教师登陆</a>
-<a href="zhuce.jsp" >注册</a>
+<table>
+    <tr><td>姓名</td><td>年龄</td><td>性别</td><td>系别</td></tr>
+    <c:forEach items="list" var="s">
+        <tr><td>#{s.id}</td><td>#{s.name}</td><td>#{s.age}</td></tr>
+    </c:forEach>
+</table>
 </body>
 </html>

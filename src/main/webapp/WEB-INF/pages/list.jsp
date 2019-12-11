@@ -14,8 +14,8 @@
 <body>
     <h3>查询了所有的账户信息</h3>
 
-    <c:forEach items="${list}" var="account">
-        ${account.name}
-    </c:forEach>
+    <%--<c:forEach items="${list}" var="account">--%>
+        <%--${account.name}--%>
+    <%--</c:forEach>--%>
 </body>
 </html>

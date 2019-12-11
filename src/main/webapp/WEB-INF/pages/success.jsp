@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: cdf
   Date: 19-12-11
-  Time: 下午6:27
+  Time: 下午1:12
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -12,8 +12,7 @@
 </head>
 <body>
 
-<a href="first.jsp" >学生登陆</a>
-<a href="teacherdenglu.jsp" >教师登陆</a>
-<a href="zhuce.jsp" >注册</a>
+<h3>登录成功</h3>
+<button  onclick="window.location.href='../../start.jsp'">跳转到测试界面</button>
 </body>
 </html>

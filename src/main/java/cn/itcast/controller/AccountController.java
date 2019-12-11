@@ -38,7 +38,8 @@ public class AccountController {
     public void saveAccount(Account account ,HttpServletRequest request, HttpServletResponse response) throws IOException {
         accountService.saveAccount(account);
 //        return "list";
-        response.sendRedirect(request.getContextPath()+"/account/findAll");
+
+//        response.sendRedirect(request.getContextPath()+"/account/findAll");
         return ;
     }
 

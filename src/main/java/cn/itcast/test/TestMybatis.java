@@ -21,7 +21,7 @@ public class TestMybatis {
     @Test
     public void test2() throws IOException {
         //加载配置文件
-        InputStream in= Resources.getResourceAsStream("SqlMapConfig.xml");
+        InputStream in= Resources.getResourceAsStream("previous/SqlMapConfig.xml");
 
         //创建sqlsessionfactory工厂对象
         SqlSessionFactory factory=new SqlSessionFactoryBuilder().build(in);
@@ -50,7 +50,7 @@ public class TestMybatis {
         account.setName("陈登峰");
         account.setMoney(180.0);
         //加载配置文件
-        InputStream in= Resources.getResourceAsStream("SqlMapConfig.xml");
+        InputStream in= Resources.getResourceAsStream("previous/SqlMapConfig.xml");
 
         //创建sqlsessionfactory工厂对象
         SqlSessionFactory factory=new SqlSessionFactoryBuilder().build(in);
