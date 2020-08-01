@@ -26,7 +26,7 @@ import java.util.List;
  **/
 @CrossOrigin(origins = "*",maxAge = 3600)
 @Controller
-public class StudentController {
+public class StudentController extends Thread{
 
     @Autowired
     private StudentService studentService;
